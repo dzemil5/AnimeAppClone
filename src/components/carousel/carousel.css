@@ -2,6 +2,8 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin:0;
+  padding:0;
 }
 
 .carousel {
@@ -13,7 +15,7 @@
 .Banner {
   position: relative;
   width: 100vw;
-  height: 40em;
+  height: 65vh;
   flex-shrink: 0;
   flex-grow: 0;
   display: block;
@@ -30,11 +32,13 @@
   height: 100%;
   overflow: hidden;
   display: flex;
+    margin:0;
+  padding:0;
 }
 
 .prev,
 .next {
-  height: 94.2%;
+  height: 65vh;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -44,6 +48,7 @@
   color: rgb(223, 223, 223);
   cursor: pointer;
   transition: 0.2s;
+  
 }
 
 .prev:hover,
