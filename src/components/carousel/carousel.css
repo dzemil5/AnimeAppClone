@@ -32,8 +32,6 @@
   height: 100%;
   overflow: hidden;
   display: flex;
-    margin:0;
-  padding:0;
 }
 
 .prev,
@@ -123,3 +121,4 @@
 .BannerEpisodes {
   font-size: 20px;
 }
+
